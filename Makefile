@@ -10,13 +10,13 @@ N=1024
 
 mm: MatrixMultiplication.c
 	@echo "[BLD] Matrix multiplication"
-	@$(MY_C) $(C_FLAGS) -DN=$(N) -o mm MatrixMultiplication.c
+	@$(MY_C) $(C_FLAGS) -DN=$(N) -o mm.o MatrixMultiplication.c
 
 mmt: MatrixMultiplicationTransposed.c
 	@echo "[BLD] Matrix multiplication transposed"
-	@$(MY_C) $(C_FLAGS) -DN=$(N) -o mmt MatrixMultiplicationTransposed.c
+	@$(MY_C) $(C_FLAGS) -DN=$(N) -o mmt.o MatrixMultiplicationTransposed.c
 
 
 mms: MatrixMultiplicationSubmatrix.c
 	@echo "[BLD] Matrix multiplication submatrix"
-	@$(MY_C) $(C_FLAGS) -DN=$(N) -DCLS=$(CLS) -o mms MatrixMultiplicationSubmatrix.c
+	@$(MY_C) $(C_FLAGS) -DN=$(N) -DCLS=$(CLS) -o mms.o MatrixMultiplicationSubmatrix.c

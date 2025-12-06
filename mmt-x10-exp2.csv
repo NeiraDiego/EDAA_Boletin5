@@ -1,0 +1,28 @@
+509726776,,task-clock,0,28%,502885626,100,00,0,CPUs utilized
+4,,context-switches,13,02%,502885626,100,00,7,/sec
+0,,cpu-migrations,0,00%,502885626,100,00,0,/sec
+8279,,page-faults,0,00%,502885626,100,00,16,K/sec
+7669573593,,cpu_atom/instructions/,0,10%,111893554,22,00,3,insn per cycle
+2190798637,,cpu_atom/cycles/,0,23%,134896568,26,00,4,GHz
+1087109599,,cpu_atom/branches/,0,05%,157895857,31,00,2,G/sec
+1085132,,cpu_atom/branch-misses/,0,21%,180895311,35,00,0,of all branches
+,0,27%,203895484,40,00,48,%  tma_backend_bound
+,,,,,2,%  tma_bad_speculation
+,,,,,4,%  tma_frontend_bound
+,,,,,45,%  tma_retiring
+2150003078,,cpu_atom/L1-dcache-loads/,0,06%,226907413,45,00,4,G/sec
+2143385726,,cpu_core/L1-dcache-loads/,0,05%,227593184,45,00,4,G/sec
+1623152,,cpu_atom/L1-dcache-load-misses/,1,15%,228591137,45,00,0,of all L1-dcache accesses
+1686642,,cpu_core/L1-dcache-load-misses/,4,26%,229649965,45,00,0,of all L1-dcache accesses
+368054,,cpu_atom/LLC-loads/,18,26%,92001574,18,00,722,K/sec
+756860,,cpu_core/LLC-loads/,8,76%,92004294,18,00,1,M/sec
+191599,,cpu_atom/LLC-load-misses/,11,76%,92004131,18,00,52,of all LL-cache accesses
+185795,,cpu_core/LLC-load-misses/,11,55%,91945220,18,00,24,of all LL-cache accesses
+290988,,cpu_atom/L1-icache-load-misses/,19,18%,92006430,18,00,,
+254898,,cpu_core/L1-icache-load-misses/,15,59%,91998354,18,00,,
+2199220992,,cpu_atom/dTLB-loads/,0,10%,91996061,18,00,4,G/sec
+2200094264,,cpu_core/dTLB-loads/,0,07%,91995617,18,00,4,G/sec
+20924,,cpu_atom/dTLB-load-misses/,4,51%,91970209,18,00,0,of all dTLB cache accesses
+20476,,cpu_core/dTLB-load-misses/,5,07%,91289794,18,00,0,of all dTLB cache accesses
+4555,,cpu_atom/iTLB-load-misses/,15,59%,90294297,17,00,,
+4614,,cpu_core/iTLB-load-misses/,15,23%,89294824,17,00,,

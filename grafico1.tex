@@ -1,0 +1,53 @@
+\begin{tikzpicture}
+    \begin{axis}[
+        xlabel={Tamaño de matriz (N)},
+        ylabel={Tiempo (segundos)},
+        legend pos=north west,
+        grid=major,
+        width=12cm,
+        height=8cm,
+    ]
+        \addplot[
+            color=blue,
+            mark=*,
+            thick,
+        ]
+        coordinates {
+            (1000, 0.855698)
+            (2000, 13.6061)
+            (3000, 59.059948)
+            (4000, 171.347275)
+            (5000, 383.899738)
+            (6000, 639.560529)
+        };
+        \addlegendentry{mmNvsT}
+        \addplot[
+            color=red,
+            mark=square*,
+            thick,
+        ]
+        coordinates {
+            (1000, 0.489037)
+            (2000, 4.508993)
+            (3000, 15.160536)
+            (4000, 36.666279)
+            (5000, 71.842531)
+            (6000, 123.499993)
+        };
+        \addlegendentry{mmtNvsT}
+        \addplot[
+            color=green!50!black,
+            mark=triangle*,
+            thick,
+        ]
+        coordinates {
+            (1000, 0.353911)
+            (2000, 2.847585)
+            (3000, 9.891244)
+            (4000, 31.108984)
+            (5000, 61.755927)
+            (6000, 123.889434)
+        };
+        \addlegendentry{mmsNvsT}
+    \end{axis}
+\end{tikzpicture}
